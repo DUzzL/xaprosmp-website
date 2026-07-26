@@ -1221,6 +1221,56 @@ window.SHOPS = [
     "Sulfur Spike: 2D for 1 Stack"
 	]
    },
+   {
+  "name": "The Pine Needle",
+  "owner": "beedisciple & ker0nr0n",
+  "type": "specialized",
+  "location": "-115, 50",
+  "tags": ["decoration", "food", "nature", "wood"],
+  "items": [
+    "Azalea Tree: 1D for 1 Stack",
+    "Beets: 1D for 1 Stack",
+    "Berries: 1D for 1 Stack",
+    "Bread: 1D for 1 Stack",
+    "Brown Eggs: 1D for 16",
+    "Brown Mushrooms: 1D for 32",
+    "Cactus Flower: 1D for 32",
+    "Carrots: 1D for 1 Stack",
+    "Cocoa Beans: 1D for 1 Stack",
+    "Cookies: 1D for 1 Stack",
+    "Eggs: 1D for 16",
+    "Farmer's Starter Pack: 8D for 1 Shulker",
+    "Firefly Bush: 1D for 32",
+    "Flowering Azalea: 1D for 1 Stack",
+    "Glowberries: 1D for 1 Stack",
+    "Golden Apple: 1D for 16",
+    "Golden Carrot: 1D for 2 Stacks",
+    "Moss: 1D for 2 Stacks",
+    "Potatoes: 1D for 1 Stack",
+    "Pumpkin Pie: 1D for 1 Stack",
+    "Pumpkins: 1D for 3 Stacks",
+    "Red Mushrooms: 1D for 32",
+    "Spruce Decor Pack: 20D for 1 Shulker",
+    "Spruce Logs: 2D for 1 Stack",
+    "Spruce Saplings: 2D for 16",
+    "Vines: 1D for 1 Stack",
+    "Wheat: 1D for 1 Stack"
+  ]
+},
+{
+  "name": "DangerZone Merch Store",
+  "owner": "Just__Izzy",
+  "type": "general",
+  "location": "1263, -458",
+  "tags": ["building-blocks", "mob-drops", "valuables"],
+  "items": [
+    "Bone Blocks: 63D for 1 Shulker",
+    "Coal Blocks: 180D for 1 Shulker",
+    "DangerZone Beacon Box: 81D for 1"
+  ]
+}
+
+
    
   
   

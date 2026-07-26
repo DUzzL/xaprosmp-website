@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>xaprosmp</title>
+<meta name="description" content="A small vanilla Minecraft survival server. Read the rules, browse the shop district, hop on.">
+<link rel="canonical" href="https://web.xaprosmp.xyz/">
+<link rel="icon" href="img/logo.webp">
+<link rel="preload" as="image" href="img/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=7">
+<script src="js/theme.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">
+      <img src="img/logo.webp" alt="xaprosmp logo">
+      <div>
+        <div class="wordmark">XAPROS SMP</div>
+        <div class="tagline">Vanilla survival</div>
+      </div>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="rules/" class="nav-link">Rules</a>
+      <a href="stats/" class="nav-link">Statistics</a>
+      <a href="shops/" class="nav-link">Shop District</a>
+      <a href="donate/" class="nav-link nav-link-gold">Donate</a>
+    </nav>
+    <div class="topbar-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"></button>
+      <a href="https://map.xaprosmp.xyz" target="_blank" rel="noopener" class="btn btn-amber">Bluemap</a>
+      <a href="#" target="_blank" rel="noopener" class="btn btn-blurple discord-link">Discord</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero reveal">
+    <div class="hero-text">
+      <h1>A server for adults who just want to play Minecraft</h1>
+      <p>xapros SMP is a small <span class="accent">Vanilla survival</span> server on Fabric. No pay-to-win, no donor crates, no ranks above staff. Just Minecraft!</p>
+    </div>
+    <img src="img/logo.webp" alt="xaprosmp turtle logo" class="hero-logo" width="168" height="168">
+  </section>
+
+  <div class="status-card reveal">
+    <span class="status-pill checking" id="status-pill">
+      <span class="status-dot"></span>
+      <span id="status-text">checking server…</span>
+    </span>
+  </div>
+
+  <div class="cta-grid">
+    <a href="#" class="cta-card cta-blurple cta-large discord-link reveal" target="_blank" rel="noopener">
+      <span class="cta-eyebrow">Community</span>
+      <h3>Join the Discord</h3>
+      <p>Here you can apply to join the server, get announcements and chat with fellow members!</p>
+    </a>
+    <a href="https://map.xaprosmp.xyz" class="cta-card cta-amber reveal" target="_blank" rel="noopener">
+      <span class="cta-eyebrow">Live Map</span>
+      <h3>Bluemap</h3>
+      <p>See the world and find your way around.</p>
+    </a>
+    <a href="rules/" class="cta-card cta-violet reveal">
+      <span class="cta-eyebrow">Before you join</span>
+      <h3>The Rules</h3>
+      <p>Read them before you start your application!</p>
+    </a>
+  </div>
+
+  <div class="section-head reveal">
+    <div class="section-eyebrow">// who we are</div>
+    <h2 class="section-title">Small server, no nonsense.</h2>
+    <p class="section-sub">xaprosmp runs on Fabric with some vanilla tweaks for quality of life. We've got a regulated shop district at spawn, a community Nether hub, and players who actually finish their builds. Mostly.</p>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-card reveal">
+      <h4>True Vanilla</h4>
+      <p>We chose Fabric over Paper or Spigot to keep the gameplay Vanilla while improving performance. No game-changing mods, just QoL stuff like AFK display, mini blocks, and multiplayer sleep.</p>
+    </div>
+    <div class="about-card reveal">
+      <h4>Good and fair moderation</h4>
+      <p>Griefing, stealing, X-ray and seed-mining all get people banned. We're a safe place. Discrimination and harassment aren't tolerated!</p>
+    </div>
+    <div class="about-card reveal">
+      <h4>Build what you want</h4>
+      <p>There are very little restrictions on what you can do. You can build an industrial hellscape or a beautiful kingdom!</p>
+    </div>
+  </div>
+
+  <section class="rules-section reveal">
+    <div class="vote-block">
+      <h3>Help us grow 💜</h3>
+      <p>To achieve xapros world domination, we need your daily votes. We don't give rewards for voting, but we'd appreciate the help.</p>
+      <div class="vote-actions">
+		<a href="https://findmcserver.com/server/xapros" target="_blank" rel="noopener" class="btn btn-violet">Vote 1</a>
+        <a href="https://minecraft-server-list.com/server/510169/" target="_blank" rel="noopener" class="btn btn-violet">Vote 2</a>
+        <a href="https://minecraft-mp.com/server-s340890" target="_blank" rel="noopener" class="btn btn-violet">Vote 3</a>
+		<a href="https://www.planetminecraft.com/server/xapros-smp-6644646/" target="_blank" rel="noopener" class="btn btn-violet">Vote 4</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      © xaprosmp · running on fabric · <code>xaprosmp.xyz</code>
+      <div class="disclaimer">Not affiliated with Mojang AB or Microsoft.</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://map.xaprosmp.xyz" target="_blank" rel="noopener">Bluemap</a>
+      <a href="#" target="_blank" rel="noopener" class="discord-link">Discord</a>
+      <a href="rules/">Rules</a>
+      <a href="stats/">Statistics</a>
+      <a href="shops/">Shops</a>
+	  <a href="privacy/">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/status.js"></script>
+</body>
+</html>

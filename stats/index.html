@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statistics · xaprosmp</title>
+<meta name="description" content="Live player statistics for xapros SMP — advancements earned and play time per player.">
+<link rel="canonical" href="https://web.xaprosmp.xyz/stats">
+<link rel="icon" href="../img/logo.webp">
+<link rel="preload" as="image" href="../img/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css?v=7">
+<script src="../js/theme.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="../index.html" class="brand">
+      <img src="../img/logo.webp" alt="xaprosmp logo">
+      <div>
+        <div class="wordmark">XAPROS SMP</div>
+        <div class="tagline">Vanilla survival</div>
+      </div>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="../rules/" class="nav-link">Rules</a>
+      <a href="../stats/" class="nav-link active">Statistics</a>
+      <a href="../shops/" class="nav-link">Shop District</a>
+      <a href="../donate/" class="nav-link nav-link-gold">Donate</a>
+    </nav>
+    <div class="topbar-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"></button>
+      <a href="https://map.xaprosmp.xyz" target="_blank" rel="noopener" class="btn btn-amber">Bluemap</a>
+      <a href="#" target="_blank" rel="noopener" class="btn btn-blurple discord-link">Discord</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="section-head reveal">
+    <div class="section-eyebrow">// statistics</div>
+    <h1 class="section-title">Player statistics</h1>
+    <p class="section-sub">Live stats pulled from the server scoreboard: advancements earned and total play time per player. Search by name or click a column header to sort.</p>
+  </div>
+
+  <div class="stats-table-wrap stats-summary-wrap reveal">
+    <table class="stats-table stats-summary-table" id="stats-summary">
+      <thead>
+        <tr>
+          <th>🧍 Players tracked</th>
+          <th>🏆 Advancements earned</th>
+          <th>⏱️ Combined play time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="num" id="stat-players">–</td>
+          <td class="num" id="stat-advancements">–</td>
+          <td class="num" id="stat-playtime">–</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="stats-controls reveal">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input type="text" class="shop-search" id="stats-search" placeholder="Search players by name…">
+    </div>
+  </div>
+
+  <div class="stats-meta-row reveal">
+    <div class="results-count" id="results-count"></div>
+    <div class="stats-updated" id="stats-updated"></div>
+  </div>
+
+  <div class="stats-table-wrap reveal">
+    <table class="stats-table" id="stats-table">
+      <thead>
+        <tr>
+          <th class="col-rank">#</th>
+          <th class="col-player sortable" data-sort="name">Player <span class="sort-arrow"></span></th>
+          <th class="col-advancements sortable" data-sort="bac_advancements">Advancements <span class="sort-arrow"></span></th>
+          <th class="col-playtime sortable" data-sort="hc_playTimeShow">Play time <span class="sort-arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="stats-body"></tbody>
+    </table>
+  </div>
+
+  <p class="stats-empty" id="stats-empty" style="display:none">No players match that search.</p>
+  <p class="stats-loading" id="stats-loading">Loading statistics…</p>
+  <p class="stats-error" id="stats-error" style="display:none"></p>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      © xaprosmp · running on fabric · <code>xaprosmp.xyz</code>
+      <div class="disclaimer">Not affiliated with Mojang AB or Microsoft.</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://map.xaprosmp.xyz" target="_blank" rel="noopener">Bluemap</a>
+      <a href="#" target="_blank" rel="noopener" class="discord-link">Discord</a>
+      <a href="../index.html">Home</a>
+      <a href="../rules/">Rules</a>
+      <a href="../stats/">Statistics</a>
+      <a href="../privacy/">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/config.js"></script>
+<script src="../js/nav.js"></script>
+<script src="../js/stats.js?v=4"></script>
+</body>
+</html>

@@ -115,22 +115,6 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "Elder Guardian",
-    "owner": "TristanMrH",
-    "type": "specialized",
-    "location": "27, -84",
-    "tags": ["building-blocks", "equipment", "travel", "decoration"],
-    "items": [
-      "Dark Prismarine: 2D for 1 Stack",
-      "Prismarine: 1D for 1 Stack",
-      "Prismarine Brick: 1D for 1 Stack",
-      "Enchanted Trident: 10D for 1",
-      "Conduit: 32D for 1",
-      "Nautilus Armour : 3D for 1",
-      "Sea Lantern: 2D for 1 Stack"
-    ]
-  },
-  {
     "name": "End City",
     "owner": "Kush_XD",
     "type": "specialized",
@@ -170,7 +154,7 @@ window.SHOPS = [
   },
   {
     "name": "Frog Shop",
-    "owner": "DUzzL",
+    "owner": "DUzzL_LP",
     "type": "specialized",
     "location": "21, -26",
     "tags": ["decoration"],
@@ -204,7 +188,7 @@ window.SHOPS = [
   },
   {
     "name": "Horn Store",
-    "owner": "RottenVeal ",
+    "owner": "LinkSaga ",
     "type": "specialized",
     "location": "-120, 72",
     "tags": ["decoration"],
@@ -505,7 +489,7 @@ window.SHOPS = [
   },
   {
     "name": "The Druid's Grove",
-    "owner": "Kush",
+    "owner": "Kush_XD",
     "type": "specialized",
     "location": "-140, 52",
     "tags": ["nature", "wood"],
@@ -534,7 +518,7 @@ window.SHOPS = [
   },
   {
     "name": "The Pirates",
-    "owner": "Kush",
+    "owner": "Kush_XD",
     "type": "general",
     "location": "-25, 131",
     "tags": ["building-blocks", "brewing", "decoration", "nature"],
@@ -552,7 +536,7 @@ window.SHOPS = [
   },
   {
     "name": "The Skulk Emporium",
-    "owner": "Kush",
+    "owner": "Kush_XD",
     "type": "specialized",
     "location": "47,21",
     "tags": ["decoration", "redstone"],
@@ -646,20 +630,6 @@ window.SHOPS = [
       "Ender Chests: 1D for 4",
       "Cherry Leaves: 1D for 1 Stack",
       "Grow Pack (16 Saplings, 32 Bonemeal, Bundle): 3D for 1"
-    ]
-  },
-  {
-    "name": "Copper Shop",
-    "owner": "PURIVERSE",
-    "type": "specialized",
-    "location": "54, -66",
-    "tags": ["building-blocks"],
-    "items": [
-      "Copper Ingots: 1D for 2 Stacks",
-      "Copper Blocks: 2D for 1 Stack",
-      "Waxed Copper Blocks: 3D for 1 Stack",
-      "Oxidized Copper Blocks: 4D for 1 Stack",
-      "Waxed Oxidized Copper Blocks: 4D for 1 Stack"
     ]
   },
   {
@@ -757,18 +727,6 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "Blackskull",
-    "owner": "badoinkaz",
-    "type": "general",
-    "location": "-0, 97",
-    "tags": ["valuables"],
-    "items": [
-      "Netherite Ingot: 32D for 1",
-      "Netherite Smithing Template Duplication: 3D for 1",
-      "Sugarcane: 1D for 1 Stack"
-    ]
-  },
-  {
     "name": "Silver, Sora & Bek's Raw Iron Stall",
     "owner": "Silver, Sora, Bek",
     "type": "specialized",
@@ -789,29 +747,6 @@ window.SHOPS = [
     "tags": ["decoration"],
     "items": [
       "Map Arts"
-    ]
-  },
-  {
-    "name": "Ravenswood Co.",
-    "owner": "FallingNuts",
-    "type": "general",
-    "location": "70, -70",
-    "tags": ["building-blocks", "valuables", "mob-drops", "brewing", "enchanting", "food"],
-    "items": [
-      "Bookshelves: 1D for 16",
-      "Cobblestone: 1D for 3 Stacks",
-      "Emerald: 1D for 2 Stacks",
-      "Emerald Block: 4D for 1 Stack",
-      "Glowstone: 1D for 16",
-      "Ominous Bottle I & II: 1D for 1 Stack",
-      "Ominous Bottle III: 2D for 1 Stack",
-      "Ominous Bottle V: 3D for 1 Stack",
-      "Redstone Block: 4D for 1 Stack",
-      "Redstone Dust: 1D for 1 Stack",
-      "Shulker Shells: 1D for 1 Stack",
-      "Spider Eye: 1D for 1 Stack",
-      "Stone: 1D for 3 Stacks",
-      "Totem of Undying: 1D for 1"
     ]
   },
   {

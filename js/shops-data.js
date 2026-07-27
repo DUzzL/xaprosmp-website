@@ -1203,6 +1203,19 @@ window.SHOPS = [
     "Coal Blocks: 180D for 1 Shulker",
     "DangerZone Beacon Box: 81D for 1"
   ]
+},
+{
+  "name": "Cave Shop",
+  "owner": "Halar4",
+  "type": "",
+  "location": "-116, 169",
+  "tags": ["building-blocks", "nature"],
+  "items": [
+    "Clay Blocks: 1D for 1 Stack",
+    "Mud Blocks: 1D for 1 Stack",
+    "Stone: 1D for 3 Stacks",
+    "Terracotta Blocks: 2D for 1 Stack"
+  ]
 }
 
 

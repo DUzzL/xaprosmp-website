@@ -1207,7 +1207,7 @@ window.SHOPS = [
 {
   "name": "Cave Shop",
   "owner": "Halar4",
-  "type": "",
+  "type": "specialized",
   "location": "-116, 169",
   "tags": ["building-blocks", "nature"],
   "items": [

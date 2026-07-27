@@ -794,7 +794,7 @@ window.SHOPS = [
       "Impaling V Book: 2D for 1",
       "Mending Book: 2D for 1",
       "Unbreaking III Book: 2D for 1",
-      "Nautilus Shells: 1D for 8",
+      "Nautilus Shells: 4D for 8",
       "Turtle Eggs: 5D for 2",
       "Redstone Block: 1D for 16",
       "Gunpowder (On Request Only): 2D for 1 Stack",

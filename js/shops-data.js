@@ -723,7 +723,9 @@ window.SHOPS = [
       "Scaffolding: 1D for 1 Stack",
       "Scaffolding: 20D for 1 Shulker",
       "Andesite: 3D for 1 Stack",
-	  "Diorite: 3D for 1 Stack"
+	  "Diorite: 3D for 1 Stack",
+	  "Deepslate: 1D for 1 Stack",
+	  "Cobbled Deepslate: 1D for 1 Stack"
     ]
   },
   {
@@ -799,7 +801,8 @@ window.SHOPS = [
       "Redstone Block: 1D for 16",
       "Gunpowder (On Request Only): 2D for 1 Stack",
       "Rent a working bee to do stuff for you",
-	  "Enchanted Trident: 8D for 1"
+	  "Enchanted Trident: 8D for 1",
+	  "Bottle o' Enchanting: 1D for 32"
     ]
   },
   {
@@ -1216,8 +1219,63 @@ window.SHOPS = [
     "Stone: 1D for 3 Stacks",
     "Terracotta Blocks: 2D for 1 Stack"
   ]
+},
+{
+  "name": "Scorched Oasis",
+  "owner": "LilaAmanita",
+  "type": "specialized",
+  "location": "-134, 16",
+  "tags": ["nature", "wood", "decoration"],
+  "items": [
+    "Bamboo: 1D for 1 Stack",
+    "Cactus: 1D for 1 Stack",
+    "Cocoa Beans: 1D for 1 Stack",
+    "Dead Bushes: 2D for 1 Stack",
+    "Short Dry Grass: 1D for 1 Stack",
+    "Sugar Cane: 1D for 1 Stack",
+    "Tall Dry Grass: 1D for 1 Stack"
+  ]
+},
+{
+  "name": "Mr. Bucket's Buckets of Fun",
+  "owner": "Vallayne",
+  "type": "general",
+  "location": "47, -69",
+  "tags": ["mob-drops", "nature", "tools", "valuables"],
+  "items": [
+    "Blue Axolotl: 180D for 1",
+    "Lava Bucket: 2D for 1",
+    "Lava Buckets: 36D for 1 Shulker",
+    "Milk Buckets: 1D for 3",
+    "Milk Buckets: 6D for 1 Shulker",
+    "Normal Axolotl: 1D for 1",
+    "Powder Snow Bucket: 2D for 1",
+    "Powder Snow Buckets: 36D for 1 Shulker",
+    "Sulfur Cubes: 3D for 1",
+    "Tropical Fish Bucket: 1D for 1",
+    "Water Bucket: 2D for 1",
+    "Water Buckets: 15D for 1 Shulker"
+  ]
+},
+{
+  "name": "Valk's Netherite Essentials",
+  "owner": "VoltingShock2YT",
+  "type": "specialized",
+  "location": "-9, 112",
+  "tags": ["armor", "enchanting", "tools", "valuables"],
+  "items": [
+    "Ancient Debris: 16D for 1",
+    "Fully Enchanted Netherite Axe: 45D for 1",
+    "Fully Enchanted Netherite Boots: 55D for 1",
+    "Fully Enchanted Netherite Chestplate: 55D for 1",
+    "Fully Enchanted Netherite Helmet: 55D for 1",
+    "Fully Enchanted Netherite Leggings: 55D for 1",
+    "Fully Enchanted Netherite Pickaxe: 55D for 1",
+    "Fully Enchanted Netherite Shovel: 40D for 1",
+    "Fully Enchanted Netherite Sword: 65D for 1",
+    "Netherite Ingot: 40D for 1"
+  ]
 }
-
 
    
   

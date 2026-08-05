@@ -700,7 +700,6 @@ window.SHOPS = [
       "Warped Nylium: 2D for 8",
       "Warped Fungus: 2D for 16",
       "Crimson Fungus: 2D for 16",
-      "Dirt: 1D for 3 Stacks",
       "Twisted Vines",
       "Weeping Vines",
       "Chorus Flower Combo: 3D for 8 Chorus Flowers & 8 Endstone"
@@ -713,8 +712,6 @@ window.SHOPS = [
     "location": "-15, 57",
     "tags": ["building-blocks"],
     "items": [
-      "Dirt: 1D for 6 Stacks",
-      "Dirt: 5D for 1 Shulker",
       "Granite: 3D for 1 Stack",
       "Stone: 1D for 3 Stacks",
       "Stone: 7D for 1 Shulker",
@@ -723,9 +720,12 @@ window.SHOPS = [
       "Scaffolding: 1D for 1 Stack",
       "Scaffolding: 20D for 1 Shulker",
       "Andesite: 3D for 1 Stack",
-	  "Diorite: 3D for 1 Stack",
-	  "Deepslate: 1D for 1 Stack",
-	  "Cobbled Deepslate: 1D for 1 Stack"
+	    "Diorite: 3D for 1 Stack",
+	    "Deepslate: 1D for 1 Stack",
+	    "Cobbled Deepslate: 1D for 1 Stack",
+      "Cobbled Deepslate: 20D for 1 Shulker",
+      "Deepslate: 20D for 1 Shulker",
+      "Tuff: 4D for 1 Stack"
     ]
   },
   {
@@ -796,13 +796,14 @@ window.SHOPS = [
       "Impaling V Book: 2D for 1",
       "Mending Book: 2D for 1",
       "Unbreaking III Book: 2D for 1",
-      "Nautilus Shells: 4D for 8",
+      "Nautilus Shells: 14D for 8",
       "Turtle Eggs: 5D for 2",
       "Redstone Block: 1D for 16",
       "Gunpowder (On Request Only): 2D for 1 Stack",
       "Rent a working bee to do stuff for you",
-	  "Enchanted Trident: 8D for 1",
-	  "Bottle o' Enchanting: 1D for 32"
+	    "Enchanted Trident: 8D for 1",
+	    "Bottle o' Enchanting: 1D for 32",
+      "Golden Carrots: 1D for 1 Stack"
     ]
   },
   {
@@ -1274,6 +1275,68 @@ window.SHOPS = [
     "Fully Enchanted Netherite Shovel: 40D for 1",
     "Fully Enchanted Netherite Sword: 65D for 1",
     "Netherite Ingot: 40D for 1"
+  ]
+},
+{
+  "name": "Penguin's Snow Hut & More",
+  "owner": "penguingreen",
+  "type": "general",
+  "location": "-15, 75",
+  "tags": ["building-blocks", "mob-drops", "nature"],
+  "items": [
+    "Common Axolotl: 1D for 1",
+    "Snow Blocks: 1D for 2 Stacks",
+    "Snow Layers: 3D for 1 Shulker",
+    "Snowballs: 1D for 1 Shulker"
+  ]
+},
+{
+  "name": "Angel's Anvil",
+  "owner": "Angelshard",
+  "type": "general",
+  "location": "33, 20",
+  "tags": ["valuables", "equipment", "enchanting", "travel"],
+  "items": [
+    "BUYING: Ancient Debris: 8D for 1",
+    "Diamond Armour Piece: 2D for 1",
+    "Diamond Bulk Box: 8D for 1",
+    "Diamond Shovel: 1D for 1",
+    "Diamond Tool: 2D for 1",
+    "Enchantment Books: 2D for 1",
+    "Ender Chest: 1D for 4",
+    "Fortune: 2D for 1",
+    "Fully Enchanted Boots (No Thorns/SE): 12D for 1",
+    "Fully Enchanted Boots (Thorns, No SE): 14D for 1",
+    "Fully Enchanted Bow: 10D for 1",
+    "Fully Enchanted Chestplate (No Thorns): 8D for 1",
+    "Fully Enchanted Chestplate (Thorns): 10D for 1",
+    "Fully Enchanted Crossbow: 8D for 1",
+    "Fully Enchanted Diamond Axe: 12D for 1",
+    "Fully Enchanted Diamond Hoe: 10D for 1",
+    "Fully Enchanted Diamond Pickaxe: 10D for 1",
+    "Fully Enchanted Diamond Shovel: 9D for 1",
+    "Fully Enchanted Diamond Sword (No Fire/KB): 12D for 1",
+    "Fully Enchanted Fishing Rod: 8D for 1",
+    "Fully Enchanted Helmet (No Thorns): 12D for 1",
+    "Fully Enchanted Helmet (Thorns): 14D for 1",
+    "Fully Enchanted Leggings (No Thorns/SE): 8D for 1",
+    "Fully Enchanted Leggings (Thorns, No SE): 10D for 1",
+    "Mending: 2D for 1",
+    "Netherite Upgrade Copy: 4D for 1",
+    "Obsidian: 1D for 2 Stacks",
+    "Silk Touch: 2D for 1",
+    "Unbreaking III: 2D for 1"
+  ]
+},
+{
+  "name": "Mochi's Vending Machine",
+  "owner": "mildmochi",
+  "type": "specialized",
+  "location": "35, -11",
+  "tags": ["food"],
+  "items": [
+    "Golden Apples: 1D for 16",
+    "Golden Carrots: 1D for 2 Stacks"
   ]
 }
 

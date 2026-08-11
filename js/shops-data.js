@@ -796,14 +796,14 @@ window.SHOPS = [
       "Impaling V Book: 2D for 1",
       "Mending Book: 2D for 1",
       "Unbreaking III Book: 2D for 1",
-      "Nautilus Shells: 14D for 8",
+      "Nautilus Shells: 9D for 8",
       "Turtle Eggs: 5D for 2",
       "Redstone Block: 1D for 16",
       "Gunpowder (On Request Only): 2D for 1 Stack",
       "Rent a working bee to do stuff for you",
 	    "Enchanted Trident: 8D for 1",
 	    "Bottle o' Enchanting: 1D for 32",
-      "Golden Carrots: 1D for 1 Stack"
+      "Golden Carrots: 1D for 2 Stack"
     ]
   },
   {
@@ -870,10 +870,11 @@ window.SHOPS = [
     "location": "-62, -54",
     "tags": ["building-blocks"],
     "items": [
-      "Charcoal: 1D for 1 Stack",
       "Coal Blocks: 3D for 16",
       "Coal Ore: 2D for 1 Stack",
-      "Deepslate Coal Ore (Coming Soon): 2D for 16",
+      "Diamond Ore: 54 for 1",
+      "Emerald Ore: 54 for 1",
+      "Deepslate Coal Ore: 18D for 1",
       "Deepslate Copper Ore: 2D for 4",
       "Deepslate Diamond Ore: 3D for 1",
       "Deepslate Gold Ore: 2D for 8",
@@ -882,9 +883,7 @@ window.SHOPS = [
       "Deepslate Redstone Ore: 2D for 16",
       "Nether Gold Ore (Coming Soon): 2D for 8",
       "Nether Quartz Ore (Coming Soon): 2D for 8",
-      "Netherite: 32D for 1",
-      "Obsidian: 1D for 2 Stacks",
-      "Portal Kits: 1D for 1"
+      "Netherite: 32D for 1"
     ]
   },
   {
@@ -1338,7 +1337,18 @@ window.SHOPS = [
     "Golden Apples: 1D for 16",
     "Golden Carrots: 1D for 2 Stacks"
   ]
-}
+},
+{
+  "name": "Tree's Gallery & Giftshop",
+  "owner": "Treeweaver",
+  "type": "specialized",
+  "location": "115, -19",
+  "tags": ["decoration"],
+  "items": [
+    "Map Art: 4D for 1"
+  ]
+},
+
 
    
   

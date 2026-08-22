@@ -695,7 +695,7 @@ window.SHOPS = [
       "Birch Saplings: 2D for 16",
       "Spruce Saplings: 2D for 16",
       "Mangrove Propagules: 2D for 16",
-      "Jungle Saplings: 2D for 8",
+      "Jungle Saplings: 6D for 8",
       "Crimson Nylium: 2D for 8",
       "Warped Nylium: 2D for 8",
       "Warped Fungus: 2D for 16",
@@ -796,10 +796,9 @@ window.SHOPS = [
       "Impaling V Book: 2D for 1",
       "Mending Book: 2D for 1",
       "Unbreaking III Book: 2D for 1",
-      "Nautilus Shells: 9D for 8",
+      "Nautilus Shells: 4D for 8",
       "Turtle Eggs: 5D for 2",
       "Redstone Block: 1D for 16",
-      "Gunpowder (On Request Only): 2D for 1 Stack",
       "Rent a working bee to do stuff for you",
 	    "Enchanted Trident: 8D for 1",
 	    "Bottle o' Enchanting: 1D for 32",
@@ -1346,6 +1345,41 @@ window.SHOPS = [
   "tags": ["decoration"],
   "items": [
     "Map Art: 4D for 1"
+  ]
+},
+{
+  "name": "The Tree House",
+  "owner": "Burgerman600",
+  "type": "specialized",
+  "location": "0, 52",
+  "tags": ["wood", "building-blocks"],
+  "items": [
+    "Acacia Logs: 2D for 1 Stack",
+    "Acacia Logs: 20D for 1 Shulker",
+    "Cherry Logs: 2D for 1 Stack",
+    "Cherry Logs: 20D for 1 Shulker",
+    "Jungle Logs: 2D for 1 Stack",
+    "Jungle Logs: 20D for 1 Shulker",
+    "Oak Logs: 2D for 1 Stack",
+    "Oak Logs: 20D for 1 Shulker",
+    "Spruce Logs: 2D for 1 Stack",
+    "Spruce Logs: 20D for 1 Shulker"
+  ]
+},
+{
+  "name": "meowders",
+  "owner": "Grazu",
+  "type": "specialized",
+  "location": "-85, -36",
+  "tags": ["valuables", "mob-drops"],
+  "items": [
+    "Emerald Blocks: 5D for 1 Stack",
+    "Emerald Blocks: 100D for 1 Shulker",
+    "Ominous Bottle III: 1D for 1 Stack",
+    "Ominous Bottle IV: 1D for 32",
+    "Ominous Bottle V: 1D for 16",
+    "Totem of Undying: 2D for 1",
+    "Totem of Undying: 34D for 1 Shulker"
   ]
 },
 

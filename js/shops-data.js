@@ -863,28 +863,22 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "Darker than Night",
-    "owner": "Tina1230",
-    "type": "general",
-    "location": "-62, -54",
-    "tags": ["building-blocks"],
-    "items": [
-      "Coal Blocks: 3D for 16",
-      "Coal Ore: 2D for 1 Stack",
-      "Diamond Ore: 54 for 1",
-      "Emerald Ore: 54 for 1",
-      "Deepslate Coal Ore: 18D for 1",
-      "Deepslate Copper Ore: 2D for 4",
-      "Deepslate Diamond Ore: 3D for 1",
-      "Deepslate Gold Ore: 2D for 8",
-      "Deepslate Iron Ore: 2D for 16",
-      "Deepslate Lapis Ore: 2D for 8",
-      "Deepslate Redstone Ore: 2D for 16",
-      "Nether Gold Ore (Coming Soon): 2D for 8",
-      "Nether Quartz Ore (Coming Soon): 2D for 8",
-      "Netherite: 32D for 1"
-    ]
-  },
+  "name": "The Ore Store",
+  "owner": "Tina1230",
+  "type": "specialised",
+  "location": "-62, -54",
+  "tags": ["building-blocks", "valuables"],
+  "items": [
+    "Copper Ore: 6D for 1 Stack",
+    "DS Emerald: 450D for 1",
+    "Gold Ore: 8D for 32",
+    "Iron Ore: 6D for 1 Stack",
+    "Lapis Ore: 8D for 1 Stack",
+    "Redstone: 8D for 1 Stack",
+    "Redstone Gold Ore: 8D for 32",
+    "Redstone Quartz Ore: 8D for 1 Stack"
+  ]
+}
   {
     "name": "Interesting’s Netherite",
     "owner": "Interesting",
@@ -1382,6 +1376,138 @@ window.SHOPS = [
     "Totem of Undying: 34D for 1 Shulker"
   ]
 },
+{
+  "name": "Wilderness Treasures",
+  "owner": "Justus",
+  "type": "general",
+  "location": "33, 65",
+  "tags": ["valuables", "enchanting", "mob-drops"],
+  "items": [
+    "Creator (Music Box) Music Disc: 20D for 1",
+    "Creator Music Disc: 20D for 1",
+    "Enchanted Book Wind Burst III: 216D for 1",
+    "Enchanted Golden Apple: 32D for 1",
+    "Heavy Core: 72D for 1",
+    "Netherite Ingot: 40D for 1",
+    "Ominous Key: 5D for 1",
+    "Pigstep Music Disc: 10D for 1"
+  ]
+},
+{
+  "name": "Flight of Stars's Pet Shop & Rescue",
+  "owner": "Flight of Stars",
+  "type": "specialized",
+  "location": "-245, 193",
+  "tags": ["mob-drops", "nature", "tools"],
+  "items": [
+    "Aquarium Kit: 4D for 1",
+    "Axolotl Food (Shulker of Tropical Fish): 9D for 1",
+    "Baby Cow, Pig, or Sheep: 1D for 1",
+    "Bucket of Sulfur Cube: 9D for 1",
+    "Bucket of Tadpole: 2D for 1",
+    "Creaking Heart: 1D for 3",
+    "Dried Ghast (+ Harness): 1D for 1",
+    "Full Bee Hive: 2D for 1",
+    "Golden Dandelions: 2D for 32",
+    "Leads: 1D for 32",
+    "Nametags: 1D for 4",
+    "Nautilus Armor: 3-5D for 1",
+    "Puffer Fish: 2D for 1",
+    "Saddles: 1D for 3",
+    "Shiny Tropical Fish (1/2670): 5D for 1",
+    "Shulker of All 22 Standard Fish: 27D for 1 Shulker",
+    "Splash Potion of Healing: 1D for 1",
+    "Splash Potion of Oozing: 1D for 1",
+    "Tropical Fish School (1/2670): 27D for 1",
+    "Turtle Eggs: 5D for 2",
+    "Untamed Cats: 2-4D for 1",
+    "Untamed Wolves: 1-2D for 1",
+    "Wolf Armor: 1D for 1"
+  ]
+},
+{
+  "name": "Herbal Dialect",
+  "owner": "Herbal Dialect",
+  "type": "general",
+  "location": "-125, -125",
+  "tags": ["building-blocks", "nature", "mob-drops", "decoration", "valuables"],
+  "items": [
+    "Bee Head: 1D for 1",
+    "Block of Copper: 2D for 1 Stack",
+    "Bogged Head: 1D for 1",
+    "Calcite: 3D for 1 Stack",
+    "Coal Ore: 2D for 1 Stack",
+    "Copper Ore: 6D for 1 Stack",
+    "Cow Head: 1D for 1",
+    "Deepslate Coal Ore: 10D for 1",
+    "Deepslate Copper Ore: 2D for 8",
+    "Deepslate Diamond Ore: 3D for 1",
+    "Deepslate Gold Ore: 2D for 16",
+    "Deepslate Iron Ore: 2D for 16",
+    "Deepslate Lapis Ore: 2D for 8",
+    "Deepslate Redstone Ore: 2D for 16",
+    "Diorite: 1D for 1 Stack",
+    "Full Beehive (3 Bees): 1D for 1",
+    "Gold Ore: 2D for 8",
+    "Granite: 3D for 1 Stack",
+    "Honey Bottle: 1D for 32",
+    "Honeycomb: 1D for 1 Stack",
+    "Honeycomb Block: 3D for 1 Stack",
+    "Iron Ore: 3D for 32",
+    "Lapis Ore: 2D for 8",
+    "Phantom Head: 1D for 1",
+    "Phantom Membrane: 1D for 32",
+    "Salmon Head: 1D for 1",
+    "Small Dripleaf: 2D for 1",
+    "Spore Blossom: 3D for 1",
+    "Squid Head: 1D for 1",
+    "Stone/Dirt/Deepslate: 7D for 1 Shulker",
+    "Tropical Fish Head: 1D for 1",
+    "Tuff: 4D for 1 Stack"
+  ]
+},
+{
+  "name": "Neki's Trail",
+  "owner": "nekisamplayer",
+  "type": "general",
+  "location": "-185, 45",
+  "tags": ["decoration", "valuables", "building-blocks"],
+  "items": [
+    "Flint: 1D for 2 Stacks",
+    "Gravel: 1D for 3 Stacks",
+    "Music Disc Relic: 4D for 1",
+    "Pottery Sherd: 1D for 2",
+    "Trims: 3D for 1"
+  ]
+},
+{
+  "name": "Aequorea's Sweet Stall",
+  "owner": "Aequoreavic",
+  "type": "specialized",
+  "location": "10, -58",
+  "tags": ["food", "nature"],
+  "items": [
+    "Comb Blocks: 2D for 32",
+    "Cookies: 1D for 1 Stack",
+    "Honey Blocks: 2D for 32",
+    "Pumpkin Pie: 1D for 1 Stack",
+    "Sugar: 1D for 1 Stack",
+    "Sweet Berries: 1D for 1 Stack",
+    "Wax: 1D for 1 Stack"
+  ]
+},
+{
+  "name": "Plazia1's Netherite Shop",
+  "owner": "Plazia1",
+  "type": "specialized",
+  "location": "-28, 119",
+  "tags": ["valuables", "tools"],
+  "items": [
+    "Ancient Debris: 8D for 1",
+    "Netherite Ingot: 32D for 1",
+    "Netherite Upgrade Copy: 3D for 1"
+  ]
+}
 
 
    

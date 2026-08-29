@@ -1251,25 +1251,6 @@ window.SHOPS = [
   ]
 },
 {
-  "name": "Valk's Netherite Essentials",
-  "owner": "VoltingShock2YT",
-  "type": "specialized",
-  "location": "-9, 112",
-  "tags": ["armor", "enchanting", "tools", "valuables"],
-  "items": [
-    "Ancient Debris: 16D for 1",
-    "Fully Enchanted Netherite Axe: 45D for 1",
-    "Fully Enchanted Netherite Boots: 55D for 1",
-    "Fully Enchanted Netherite Chestplate: 55D for 1",
-    "Fully Enchanted Netherite Helmet: 55D for 1",
-    "Fully Enchanted Netherite Leggings: 55D for 1",
-    "Fully Enchanted Netherite Pickaxe: 55D for 1",
-    "Fully Enchanted Netherite Shovel: 40D for 1",
-    "Fully Enchanted Netherite Sword: 65D for 1",
-    "Netherite Ingot: 40D for 1"
-  ]
-},
-{
   "name": "Penguin's Snow Hut & More",
   "owner": "penguingreen",
   "type": "general",

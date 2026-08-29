@@ -1488,6 +1488,19 @@ window.SHOPS = [
     "Netherite Ingot: 32D for 1",
     "Netherite Upgrade Copy: 3D for 1"
   ]
+},
+{
+  "name": "Crumbs Deluxe",
+  "owner": "DookSoul_D15",
+  "type": "specialized",
+  "location": "-168, -75",
+  "tags": ["food"],
+  "items": [
+    "Bread: 0D for 1 Stack",
+    "Cake: 0D for 1",
+    "Cookies: 0D for 1 Stack",
+    "Pumpkin Pie: 0D for 1 Stack"
+  ]
 }
 
 

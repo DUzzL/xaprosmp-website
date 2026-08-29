@@ -878,7 +878,7 @@ window.SHOPS = [
     "Redstone Gold Ore: 8D for 32",
     "Redstone Quartz Ore: 8D for 1 Stack"
   ]
-}
+  },
   {
     "name": "Interesting’s Netherite",
     "owner": "Interesting",

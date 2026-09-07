@@ -555,11 +555,12 @@ window.SHOPS = [
   "tags": ["mob-drops", "building-blocks", "enchanting", "valuables"],
   "items": [
     "Coal Blocks: 1D for 1 Stack",
-    "Diamonds: 1 Ancient Debris for 8",
+    "Diamonds: 1 Ancient Debris for 16",
     "Obsidian: 4D for 1 Shulker",
     "Slime: 56D for 1 Shulker",
     "String: 4D for 1 Shulker",
-    "Swift Sneak III: 16D for 1"
+    "Swift Sneak III: 16D for 1",
+    "Music Disc - Otherside: 16D for 1"
    ]
   },
   {
@@ -684,7 +685,7 @@ window.SHOPS = [
   {
     "name": "Tree Babies",
     "owner": "Tina1230",
-    "type": "",
+    "type": "specialized",
     "location": "-28, -84",
     "tags": ["wood", "nature", "building-blocks"],
     "items": [
@@ -762,7 +763,7 @@ window.SHOPS = [
       "Armor: 2D for 1",
       "Bookshelves: 1D for 16",
       "Cobblestone: 1D for 1 Stack",
-      "Diorite: 1D for 1 Stack",
+      "Diorite: 3D for 1 Stack",
       "Elytras: 30D for 1",
       "Elytras (New Players): 12D for 1",
       "Enchantment Books: 2D for 1",
@@ -776,7 +777,7 @@ window.SHOPS = [
       "T1 Rockets: 1D for 6 Stacks",
       "T2 Rockets: 1D for 4 Stacks",
       "T3 Rockets: 1D for 3 Stacks",
-      "TNT: 1D for 1 Stack",
+      "TNT: 10D for 1 Stack",
       "Tools: 2D for 1",
       "Totems: 1D for 2",
       "Tuff: 4D for 1 Stack",
@@ -865,19 +866,28 @@ window.SHOPS = [
   {
   "name": "The Ore Store",
   "owner": "Tina1230",
-  "type": "specialised",
+  "type": "specialized",
   "location": "-62, -54",
   "tags": ["building-blocks", "valuables"],
   "items": [
-    "Copper Ore: 6D for 1 Stack",
-    "DS Emerald: 450D for 1",
-    "Gold Ore: 8D for 32",
+    "Ancient Debris: 20D for 1",
+    "Coal Ore: 2D for 1 Stack",
+    "Copper Ore: 4D for 32",
+    "Deepslate Copper Ore: 2D for 16",
+    "Deepslate Emerald Ore: 450D for 1",
+    "Deepslate Gold Ore: 2D for 16",
+    "Deepslate Iron Ore: 2D for 16",
+    "Deepslate Lapis Ore: 2D for 32",
+    "Deepslate Redstone Ore: 1D for 32",
+    "Diamond Ore: 8D for 1",
+    "Emerald Ore: 8D for 1",
+    "Gold Ore: 4D for 32",
     "Iron Ore: 6D for 1 Stack",
-    "Lapis Ore: 8D for 1 Stack",
-    "Redstone: 8D for 1 Stack",
-    "Redstone Gold Ore: 8D for 32",
-    "Redstone Quartz Ore: 8D for 1 Stack"
-  ]
+    "Lapis Ore: 4D for 32",
+    "Nether Gold Ore: 2D for 16",
+    "Nether Quartz Ore: 3D for 32",
+      "Redstone Ore: 6D for 32"
+    ]
   },
   {
     "name": "Interesting’s Netherite",
@@ -892,7 +902,7 @@ window.SHOPS = [
   {
     "name": "Conduit Coleoid's Corals",
     "owner": "samom37",
-    "type": "",
+    "type": "specialized",
     "location": "-139, 89",
     "tags": ["nature"],
     "items": [
@@ -1140,7 +1150,7 @@ window.SHOPS = [
   {
   "name": "Sulfur Shop",
   "owner": "Manky__",
-  "type": "",
+  "type": "specialized",
   "location": "-68, 99",
   "tags": ["building-blocks", "nature"],
   "items": [
@@ -1455,10 +1465,11 @@ window.SHOPS = [
   "tags": ["decoration", "valuables", "building-blocks"],
   "items": [
     "Flint: 1D for 2 Stacks",
-    "Gravel: 1D for 3 Stacks",
-    "Music Disc Relic: 4D for 1",
-    "Pottery Sherd: 1D for 2",
-    "Trims: 3D for 1"
+    "Music Disc Relic: 10D for 1",
+    "Pottery Sherd: 1D for 1",
+    "Trims: 10D for 1",
+    "Bone Block: 2D for 1 Stack",
+    "Emerald: 4D for 1 Stack"
   ]
 },
 {
@@ -1500,6 +1511,101 @@ window.SHOPS = [
     "Cake: 0D for 1",
     "Cookies: 0D for 1 Stack",
     "Pumpkin Pie: 0D for 1 Stack"
+  ]
+},
+{
+  "name": "Angel's Inferno",
+  "owner": "Angelshard",
+  "type": "general",
+  "location": "15, 80",
+  "tags": ["valuables", "building-blocks", "mob-drops"],
+  "items": [
+    "Blackstone: 1D for 1 Stack",
+    "Blackstone: 20D for 1 Shulker",
+    "Crying Obsidian: 1D for 5 Stacks",
+    "Crying Obsidian: 3D for 1 Shulker",
+    "Ender Pearl: 1D for 4 Stacks",
+    "Ender Pearl: 5D for 1 Shulker",
+    "Gold Blocks: 3D for 1 Stack",
+    "Gold Blocks: 45D for 1 Shulker",
+    "Iron Blocks: 4D for 1 Stack",
+    "Iron Blocks: 81D for 1 Shulker",
+    "Leather: 1D for 3 Stacks",
+    "Leather: 7D for 1 Shulker",
+    "Nether Brick: 1D for 5 Stacks",
+    "Nether Brick: 3D for 1 Shulker",
+    "Nether Quartz: 1D for 1 Stack",
+    "Nether Quartz: 12D for 1 Shulker",
+    "Obsidian: 1D for 2 Stacks",
+    "Obsidian: 4D for 1 Shulker",
+    "Soul Sand: 1D for 5 Stacks",
+    "Soul Sand: 3D for 1 Shulker"
+  ]
+},
+{
+  "name": "The Moscow Mule",
+  "owner": "RenewedSalt",
+  "type": "specialized",
+  "location": "99, -72",
+  "tags": ["animals", "travel"],
+  "items": [
+    "High level donkey, horse, mule: 72D, 40D under 200 Minutes"
+  ]
+},
+{
+  "name": "UFO",
+  "owner": "Bekthul",
+  "type": "general",
+  "location": "54, 72",
+  "tags": ["building-blocks", "mob-drops", "valuables", "decoration"],
+  "items": [
+    "Basalt: 1D for 1 Stack",
+    "Blackstone: 1D for 1 Stack",
+    "Blackstone: 20D for 1 Shulker",
+    "Blaze Rods: 3D for 1 Stack",
+    "Dark Prismarine: 2D for 1 Stack",
+    "End Rods: 5D for 1 Stack",
+    "End Stone: 2D for 1 Stack",
+    "Honey Blocks: 1D for 16",
+    "Iron Blocks: 2D for 1 Stack",
+    "Magma Blocks: 3D for 1 Stack",
+    "Packed Ice: 1D for 1 Stack",
+    "Prismarine: 1D for 1 Stack",
+    "Prismarine Bricks: 1D for 1 Stack",
+    "Purpur Blocks: 2D for 1 Stack",
+    "Quartz Blocks: 2D for 1 Stack",
+    "Redstone Blocks: 4D for 1 Stack",
+    "Shroomlights: 2D for 1 Stack"
+  ]
+},
+{
+  "name": "Cherry Hideout",
+  "owner": "RoaringLugia",
+  "type": "general",
+  "location": "-35, 93",
+  "tags": ["decoration", "mob-drops", "nature", "travel"],
+  "items": [
+    "Coloured Shulkers: 1D for 3",
+    "Decoration Pack: 1D for 1",
+    "Enchanted Elytra: 20D for 1",
+    "Pink Petals: 1D for 32",
+    "Slime (1 in Boat + Lead): 2D for 1",
+    "Slimes (2 in Boat + Lead): 4D for 1",
+    "Tree Bundle: 1D for 1",
+    "Wither Skeleton Skulls: 6D for 3"
+  ]
+},
+{
+  "name": "Treasures from the North",
+  "owner": "Keysnail",
+  "type": "general",
+  "location": "35, -63",
+  "tags": ["building-blocks", "food"],
+  "items": [
+    "Blue Ice: 7D for 1 Stack",
+    "Golden Carrots: 0D for 1",
+    "Packed Ice: 1D for 3 Stacks",
+    "Packed Ice: 10D for 1 Shulker"
   ]
 }
 

@@ -115,22 +115,6 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "End City",
-    "owner": "Kush_XD",
-    "type": "specialized",
-    "location": "-51, 6",
-    "tags": ["equipment", "travel", "decoration"],
-    "items": [
-      "Diamond Armour Misc: 3D for 1",
-      "Diamond Tools Misc: 3D for 1",
-      "Elytra: 12D for 1",
-      "Iron Armour Misc: 1D for 3",
-      "Iron Tools Misc: 1D for 3",
-      "Shulker Shells): 0D for 1 Stack",
-      "Spire Armor Trim: 12D for 1"
-    ]
-  },
-  {
     "name": "Food Truck's by TurtleInc",
     "owner": "TurtleAddict",
     "type": "general",

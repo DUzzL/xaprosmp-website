@@ -1197,14 +1197,17 @@ window.SHOPS = [
 {
   "name": "Cave Shop",
   "owner": "Halar4",
-  "type": "specialized",
-  "location": "-116, 169",
+  "type": "",
+  "location": "",
   "tags": ["building-blocks", "nature"],
   "items": [
+    "Clay: 1D for 4 Stacks",
     "Clay Blocks: 1D for 1 Stack",
-    "Mud Blocks: 1D for 1 Stack",
-    "Stone: 1D for 3 Stacks",
-    "Terracotta Blocks: 2D for 1 Stack"
+    "Dirt: 1D for 6 Stacks",
+    "Grass Blocks: 1D for 6 Stacks",
+    "Mossy Cobblestone: 1D for 1 Stack",
+    "Mud: 1D for 2 Stacks",
+    "Terracotta: 2D for 1 Stack"
   ]
 },
 {
@@ -1591,7 +1594,36 @@ window.SHOPS = [
     "Packed Ice: 1D for 3 Stacks",
     "Packed Ice: 10D for 1 Shulker"
   ]
-}
+},
+{
+  "name": "kat food",
+  "owner": "katburger",
+  "type": "specialised",
+  "location": "-55, 25",
+  "tags": ["food"],
+  "items": [
+    "Bread: 1D for 3 Stacks",
+    "Cake: 1D for 1",
+    "Cooked Beef: 1D for 3 Stacks",
+    "Cooked Salmon: 1D for 4 Stacks",
+    "Cookies: 1D for 1 Stack",
+    "Pumpkin Pie: 1D for 1 Stack"
+  ]
+},
+{
+  "name": "Sai's Terracotta",
+  "owner": "Sai",
+  "type": "specialized",
+  "location": "-178, 88",
+  "tags": ["building-blocks", "decoration"],
+  "items": [
+    "Clay Blocks: 1D for 1 Stack",
+    "Dyed Terracotta: 3D for 1 Stack",
+    "Glazed Terracotta: 3D for 1 Stack",
+    "Terracotta: 2D for 1 Stack"
+  ]
+},
+
 
 
    

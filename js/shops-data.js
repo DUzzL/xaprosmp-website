@@ -1626,6 +1626,31 @@ window.SHOPS = [
     "Terracotta: 2D for 1 Stack"
   ]
 },
+{
+  "name": "Obtuseninjas Outpost",
+  "owner": "obtuseninja",
+  "type": "general",
+  "location": "464, -185",
+  "tags": ["building-blocks", "nature", "wood", "decoration"],
+  "items": [
+    "All Color Dyes: 1D for 1 Stack",
+    "Bamboo: 1D for 1 Stack",
+    "Cobblestone: 1D for 2 Stacks",
+    "Deepslate: 1D for 1 Stack",
+    "Dirt: 1D for 6 Stacks",
+    "Jungle Leaves: 1D for 2 Stacks",
+    "Jungle Logs: 2D for 1 Stack",
+    "Oak Leaves: 1D for 2 Stacks",
+    "Oak Logs: 2D for 1 Stack",
+    "Scaffolding: 1D for 1 Stack",
+    "Spruce Leaves: 1D for 2 Stacks",
+    "Spruce Logs: 2D for 1 Stack",
+    "Sugar Cane: 1D for 1 Stack",
+    "Tuff: 4D for 1 Stack",
+    "Wheat: 1D for 1 Stack",
+    "Wheat Seeds: 1D for 5 Stacks"
+  ]
+}
 
 
 

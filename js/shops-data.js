@@ -210,7 +210,10 @@ window.SHOPS = [
     "name": "LinkSaga's Redstone Shop",
     "owner": "LinkSaga",
     "type": "specialized",
-    "location": "-115, -25",
+    "location": "-115, -25", 20D for 1 Shulker",
+      "Spruce Logs: 2D for 1 Stack",
+      "Sticks: 1D for 6 Stacks",
+      "Warped Stems: 2D for 1 Stack"
     "tags": ["redstone"],
     "items": [
       "Crafter: 1D for 8",
@@ -899,32 +902,6 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "The Tree Stump",
-    "owner": "Myriad_Muffin",
-    "type": "specialized",
-    "location": "130, -10",
-    "tags": ["wood", "nature"],
-    "items": [
-      "Acacia Logs: 2D for 1 Stack",
-      "Birch Logs: 2D for 1 Stack",
-      "Cherry Logs: 2D for 1 Stack",
-      "Crimson Stems: 2D for 1 Stack",
-      "Jungle Logs: 2D for 1 Stack",
-      "Oak Logs: 2D for 1 Stack",
-      "Shulker of Acacia Logs: 20D for 1 Shulker",
-      "Shulker of Birch Logs: 20D for 1 Shulker",
-      "Shulker of Cherry Logs: 20D for 1 Shulker",
-      "Shulker of Crimson Stems: 20D for 1 Shulker",
-      "Shulker of Jungle Logs: 20D for 1 Shulker",
-      "Shulker of Oak Logs: 20D for 1 Shulker",
-      "Shulker of Spruce Logs: 20D for 1 Shulker",
-      "Shulker of Warped Stems: 20D for 1 Shulker",
-      "Spruce Logs: 2D for 1 Stack",
-      "Sticks: 1D for 6 Stacks",
-      "Warped Stems: 2D for 1 Stack"
-    ]
-  },
-  {
     "name": "The Copper Golem",
     "owner": "DKAverage",
     "type": "specialized",
@@ -1037,20 +1014,8 @@ window.SHOPS = [
     ]
   },
   {
-    "name": "Penguin’s Cove",
-    "owner": "PenguTheGoat",
-    "type": "specialized",
-    "location": "24, 85",
-    "tags": ["enchanting"],
-    "items": [
-      "All Enchants (Except Special): 2D for 1",
-      "Swift Sneak: 10D for 1",
-      "Wind Burst: Price Negotiable"
-    ]
-  },
-  {
     "name": "Rex’s Ranch",
-    "owner": "MambasaursRex",
+    "owner": "MambasaurusRex",
     "type": "general",
     "location": "-52, -120",
     "tags": ["nature", "building-blocks", "enchanting"],
@@ -1492,7 +1457,7 @@ window.SHOPS = [
 },
 {
   "name": "Crumbs Deluxe",
-  "owner": "DookSoul_D15",
+  "owner": "Dooks_15",
   "type": "specialized",
   "location": "-168, -75",
   "tags": ["food"],

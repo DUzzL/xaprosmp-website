@@ -1650,6 +1650,37 @@ window.SHOPS = [
     "Wheat: 1D for 1 Stack",
     "Wheat Seeds: 1D for 5 Stacks"
   ]
+},
+{
+  "name": "Banana Hut",
+  "owner": "chillybanana",
+  "type": "general",
+  "location": "-163, 25",
+  "tags": ["decoration", "building-blocks"],
+  "items": [
+    "Block of Quartz: 2D for 1 Stack",
+    "Block of Quartz: 54D for 1 Shulker",
+    "Map Art: 36D for 1",
+    "Quartz Pillar: 2D for 1 Stack",
+    "Quartz Pillar: 54D for 1 Shulker"
+  ]
+},
+{
+  "name": "Mossy & Messy",
+  "owner": "Baaxton",
+  "type": "specialized",
+  "location": "-68, 154",
+  "tags": ["building-blocks", "nature", "decoration"],
+  "items": [
+    "Azalea: 1D for 1 Stack",
+    "Flowering Azalea: 1D for 1 Stack",
+    "Moss: 1D for 1 Stack",
+    "Moss Carpet: 1D for 1 Stack",
+    "Mossy Cobblestone: 1D for 1 Stack",
+    "Mossy Stone Brick: 1D for 1 Stack",
+    "Pale Moss: 1D for 1 Stack",
+    "Pale Moss Carpet: 1D for 1 Stack"
+  ]
 }
 
 

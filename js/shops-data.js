@@ -210,10 +210,7 @@ window.SHOPS = [
     "name": "LinkSaga's Redstone Shop",
     "owner": "LinkSaga",
     "type": "specialized",
-    "location": "-115, -25", 20D for 1 Shulker",
-      "Spruce Logs: 2D for 1 Stack",
-      "Sticks: 1D for 6 Stacks",
-      "Warped Stems: 2D for 1 Stack"
+    "location": "-115, -25",
     "tags": ["redstone"],
     "items": [
       "Crafter: 1D for 8",
@@ -1566,7 +1563,7 @@ window.SHOPS = [
 {
   "name": "kat food",
   "owner": "katburger",
-  "type": "specialised",
+  "type": "specialized",
   "location": "-55, 25",
   "tags": ["food"],
   "items": [
